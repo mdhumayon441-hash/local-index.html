@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:hsl(30, 54%, 90%);
+}
+@media screen and(max-width:375px){
+    body{
+        background-color: black;
+    }
+}
+
+
+.main-container{
+
+    background: #ffffff;
+    width: 1440px auto;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    position: relative;
+    padding: 2.5rem auto;
+    border-radius:50px;
+    margin:100px auto; 
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+img{
+   
+    width: 100%; 
+    border-radius: 15px;
+
+    
+}
+.preparation-section{
+    padding: 40px;
+    background-color: rgb(255, 231, 239);
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px; 
+
+}
+.preparation-section > h2{
+    margin-bottom: 5px;
+}
+.preparation-section > ul{
+    margin-top: 15px;
+    margin-left: 20px;
+}
+.preparation-section > ul > li{
+    margin-bottom: 10px;
+}
+.preparation-section > ul > li > a{
+    cursor: default;
+    text-decoration: none;
+    margin-left: 10px;
+}
+table,tr td{
+    padding-left: 50px;
+    border: 1px solid;
+    border-collapse: separate;
+    margin-top: auto;
+    padding-left: 200px auto;
+    padding-right: 200px auto;
+}
+.ingredients-section>ul{
+    margin-top: 15px;
+}
+.ingredients-section>ul>li{
+    margin-bottom: 9px;
+}
+.ingredients-section >ul>li>a{
+    margin-top: 10px;
+    margin-top: auto;
+    padding: 15px;
+    text-decoration: none;
+    cursor: default;
+}
+.instructions-section>h2{
+margin-top:10px;
+margin-bottom: 10px;
+}
+.instructions-section>ol>li{
+    margin-top: 8px;
+}
+
+h2{
+    color: rgb(90, 5, 40);
+    text-align: start;
+}
+
+h1{
+    white-space: break-apaces;
+}
+hr{
+    margin-top: 20px;
+    margin-bottom: 5px;}
+
+.nutrition-section{
+  padding-top: 5px;
+  padding-right: 70%;
+  border-radius: 24px;
+  margin-right: 30px;
+  padding-right: 50px;
+}
+.nutrition-section>h2{
+    margin-right:px;
+
+}
+
+.subtitle {
+  margin-top: 15px;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.nutrition-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 0;
+  border-bottom: 1px solid #e0ddd5; 
+}
+
+.no-border {
+  border-bottom: none;
+}
+
+.label {
+  color: #444;
+  font-weight: 500;
+}
+
+.value {
+  color: #4e1c0b;
+  font-weight: bold;
+}
