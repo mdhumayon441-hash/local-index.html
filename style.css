@@ -4,19 +4,13 @@
     box-sizing: border-box;
 }
 body{
-    background-color:hsl(30, 54%, 90%);
+    background-color: rgb(241, 181, 107);
 }
-@media screen and(max-width:375px){
-    body{
-        background-color: black;
-    }
-}
-
 
 .main-container{
 
     background: #ffffff;
-    width: 1440px auto;
+    width: auto;
     margin-top: 35px;
     margin-bottom: 35px;
     position: relative;
@@ -33,8 +27,8 @@ body{
 
 img{
    
-    width: 100%; 
-    border-radius: 15px;
+    width: 100%;
+    border-radius: 15px; align-items: center;
 
     
 }
@@ -140,4 +134,32 @@ hr{
 .value {
   color: #4e1c0b;
   font-weight: bold;
+}
+@media (max-width:375px){
+    .main-container{
+        max-width: 100%;
+        margin: 0;
+        border-radius: 0;
+    }
+    p{
+        font-size: 15px;
+    }
+    .main-container #image{
+        margin: -40px -40px 20px -40px;
+    }
+    .img{
+        border-radius: 0;
+       padding-top: 100px;}
+    .h1{
+        font-size: 32px;
+        line-height: 1;
+    }
+    .nutrition-section ul li{
+        padding-left: 32px
+    }
+    .nutrition-section ul li strong {
+        left: 160px;
+    }
+
+
 }
